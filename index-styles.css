@@ -1,0 +1,161 @@
+
+body{
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+}
+.section-1{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #1F2937;
+    
+}
+.header-links{
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-links * {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #E5E7EB
+}
+.smaller{
+    display: flex;
+    height:10%;
+    width:100%;
+}
+.bigger{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 100%;
+}
+
+.title{
+    padding-left:8%;
+    display: block;
+    width: 7em;
+    height: auto;
+}
+.bigger-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bigger-left .left-2 {
+    color: #E5E7EB;
+    size:18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+.bigger-left .left-1{
+    font-size: 48px;
+    font-weight:bolder;
+    text-align: center;
+    color: #F9FAF8;
+    margin-bottom:0;
+}
+.bigger-right{
+    display: flex;
+    width: 25em;
+    align-self: flex-end;
+    padding-top: 3em;
+}
+.main-img{
+    width: 70%;
+    height:fit-content;
+    margin-left:2em;
+}
+button{
+    margin-top: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    background-color:#3882F6;
+    font-weight: bold;
+    color:white;
+    border-radius: 10px;
+    border:none;
+}
+
+.section-2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-2 h1{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+.section2-images{
+    display:flex;
+    justify-content: center;
+}
+
+.section2-main{
+    display:flex;
+    flex-direction: column;
+}
+.section2-sub{
+    margin:2em;
+}
+.section-3{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.section-3 p{
+    font-style: italic;
+}
+.section-4{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.section-4-banner{
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 1em;
+}
+.banner-left{
+    display:flex;
+    
+}
+.banner-left *{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+.banner-left p{
+    text-indent: 0;
+}
+.banner-left p b{
+    margin-left: 0;
+}
+.banner-left button{
+    border: 2px solid white;
+    height:2em;
+    align-self: center;
+}
+.section-5{
+    text-align: center;
+    background-color: #E5E7EB ;
+    padding:1em;
+}
+.section-5 p{
+    margin:0;
+}
