@@ -121,8 +121,8 @@ button{
 .section-4{
     display: flex;
     justify-content: center;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 .section-4-banner{
     background-color: #3882F6;
@@ -153,9 +153,13 @@ button{
 }
 .section-5{
     text-align: center;
-    background-color: #E5E7EB ;
+    background-color: #1F2937 ;
     padding:1em;
 }
 .section-5 p{
     margin:0;
+    color:#E5E7EB;
+}
+.section-5 p a{
+    color:aqua
 }
